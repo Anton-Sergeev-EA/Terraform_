@@ -1,0 +1,10 @@
+cloud_id = "b1g2muqc8ks1kpl931u7"
+folder_id = "b1gk9g4loea2uml6dg3i"
+ssh_allowed_cidrs = ["203.0.113.10/32"]
+metadata = {"common": {"serial_port_enable": 1, "ssh_keys": "ubuntu:ssh-ed25519 REPLACE_WITH_PUBLIC_KEY"}}
+existing_network_id = "enp77uuhgiq9b7ak75s0"
+vm_db_zone = "ru-central1-d"
+vms_resources = {
+  web = { cores = 2, memory = 1, core_fraction = 5, hdd_size = 10, hdd_type = "network-ssd" }
+  db  = { cores = 2, memory = 2, core_fraction = 20, hdd_size = 10, hdd_type = "network-ssd" }
+}
