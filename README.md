@@ -53,9 +53,9 @@ ssh ubuntu@EXTERNAL_IP 'curl -4 --fail --silent --show-error ifconfig.me; echo'
 
 Проверка отсутствия изменений: код возврата `terraform plan -detailed-exitcode` должен быть `0`; `2` означает изменения, `1` — ошибку. Итоговый нулевой план не доказывает отдельное прохождение промежуточных этапов 2 и 6.
 
-## Согласованные отклонения
+## Отклонения
 
-Из-за отказов API `Zone ru-central1-b is not available` и исчерпанной HDD-квоты по согласованию используются зона `ru-central1-d` для DB и SSD 10 ГБ для обеих ВМ. Исходные значения задания сохранены в defaults; фактические переопределения приведены в `terraform.tfvars.example`.
+Из-за отказов API `Zone ru-central1-b is not available` и исчерпанной HDD-квоты используются зона `ru-central1-d` для DB и SSD 10 ГБ для обеих ВМ. Исходные значения задания сохранены в defaults; фактические переопределения приведены в `terraform.tfvars.example`.
 
 ## Сервисный аккаунт
 
