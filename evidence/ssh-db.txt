@@ -1,0 +1,3 @@
+Identity added: /home/anton-sergeev/.config/terraform-netology/id_ed25519 (anton-sergeev-terraform-netology)
+fv429g9llco16lee06tc
+158.160.192.249

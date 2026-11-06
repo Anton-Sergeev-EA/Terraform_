@@ -1,0 +1,20 @@
+data.yandex_compute_image.web: Reading...
+data.yandex_compute_image.db: Reading...
+yandex_vpc_subnet.db: Refreshing state... [id=fl86l9vv4j2ebj3lbejf]
+yandex_vpc_subnet.develop: Refreshing state... [id=e9bnakmql2b83na8unm0]
+yandex_vpc_security_group.ssh: Refreshing state... [id=enp0c8rpmvkma7q21e2s]
+data.yandex_compute_image.web: Still reading... [00m10s elapsed]
+data.yandex_compute_image.db: Still reading... [00m10s elapsed]
+data.yandex_compute_image.db: Still reading... [00m20s elapsed]
+data.yandex_compute_image.web: Still reading... [00m20s elapsed]
+data.yandex_compute_image.db: Read complete after 20s [id=fd8vk751l0pi4uo167db]
+yandex_compute_instance.platform_db: Refreshing state... [id=fv429g9llco16lee06tc]
+data.yandex_compute_image.web: Read complete after 20s [id=fd8vk751l0pi4uo167db]
+yandex_compute_instance.platform: Refreshing state... [id=fhmnr4p74tfmfeuq3hr0]
+
+No changes. Your infrastructure matches the configuration.
+
+Terraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.
+
+Exit code: 0

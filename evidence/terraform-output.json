@@ -1,0 +1,38 @@
+{
+  "instances": {
+    "sensitive": false,
+    "type": [
+      "object",
+      {
+        "db": [
+          "object",
+          {
+            "external_ip": "string",
+            "fqdn": "string",
+            "instance_name": "string"
+          }
+        ],
+        "web": [
+          "object",
+          {
+            "external_ip": "string",
+            "fqdn": "string",
+            "instance_name": "string"
+          }
+        ]
+      }
+    ],
+    "value": {
+      "db": {
+        "external_ip": "158.160.192.249",
+        "fqdn": "fv429g9llco16lee06tc.auto.internal",
+        "instance_name": "netology-develop-platform-db"
+      },
+      "web": {
+        "external_ip": "51.250.64.133",
+        "fqdn": "fhmnr4p74tfmfeuq3hr0.auto.internal",
+        "instance_name": "netology-develop-platform-web"
+      }
+    }
+  }
+}

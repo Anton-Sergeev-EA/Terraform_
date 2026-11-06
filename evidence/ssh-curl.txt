@@ -1,0 +1,7 @@
+$ ssh ubuntu@51.250.64.133 'hostname; curl -4 --fail --silent --show-error ifconfig.me; echo'
+fhmnr4p74tfmfeuq3hr0
+51.250.64.133
+Identity added: /home/anton-sergeev/.config/terraform-netology/id_ed25519 (anton-sergeev-terraform-netology)
+Warning: Permanently added '51.250.64.133' (ED25519) to the list of known hosts.
+
+Exit status: 0
